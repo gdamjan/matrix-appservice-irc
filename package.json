@@ -10,7 +10,6 @@
   "scripts": {
     "start": "node app.js",
     "start:pool": "node lib/pool-service/IrcConnectionPool.js",
-    "prepare": "yarn run build",
     "build": "yarn run build:app && yarn run build:widget",
     "build:app": "tsc --project ./tsconfig.json",
     "build:widget": "vite build --config widget/vite.config.ts",
